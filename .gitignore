@@ -1,0 +1,17 @@
+# Виртуальное окружение Python
+venv/
+__pycache__/
+*.pyc
+
+# Системные файлы macOS
+.DS_Store
+
+# Папки с данными и результатами (содержимое игнорируется)
+data/*
+!data/.gitkeep
+
+results/*
+!results/.gitkeep
+
+# Docker образы (если случайно сохраните в папку)
+*.tar
